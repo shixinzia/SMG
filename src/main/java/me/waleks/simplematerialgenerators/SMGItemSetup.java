@@ -80,7 +80,7 @@ public final class SMGItemSetup {
         new MaterialGenerator(
             SMGItems.SMG_ITEM_CATEGORY,
             SMGItems.SMG_GENERATOR_SMOOTH_STONE,
-            RecipeType.SMELTERY,
+            RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[] {
                 new ItemStack(Material.SMOOTH_STONE), SlimefunItems.STEEL_INGOT, new ItemStack(Material.SMOOTH_STONE),
                 new ItemStack(Material.IRON_BARS), SMGItems.SMG_GENERATOR_SMOOTH_STONE_BROKEN, new ItemStack(Material.IRON_BARS),
@@ -138,7 +138,7 @@ public final class SMGItemSetup {
         new MaterialGenerator(
             SMGItems.SMG_ITEM_CATEGORY,
             SMGItems.SMG_GENERATOR_GLASS,
-            RecipeType.SMELTERY,
+            RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[] {
                 SlimefunItems.BRONZE_INGOT, SlimefunItems.GOLD_8K, SlimefunItems.BRONZE_INGOT,
                 SlimefunItems.BRASS_INGOT, SMGItems.SMG_GENERATOR_SAND, SlimefunItems.BRASS_INGOT,
